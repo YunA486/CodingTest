@@ -8,3 +8,8 @@ def solution(numbers):
         cnt += i
     answer -= cnt
     return answer
+
+# 다른 사람의 풀이
+
+# def solution(numbers):
+#     return 45 - sum(numbers)
