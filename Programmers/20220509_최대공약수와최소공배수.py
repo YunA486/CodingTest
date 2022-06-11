@@ -6,14 +6,14 @@ def solution(n, m):
     answer = []
     for i in range(1, n + 1):
         if (n % i == 0) & (m % i == 0):
-            gcdw = i
+            gcd = i
             break
-    answer.append(gcdw)
+    answer.append(gcd)
     for i in range (max(n,m), (n*m)+1):
         if i % n == 0 and i % m == 0:
-            lcmw = i
+            lcm = i
             break
-    answer.append(lcmw)
+    answer.append(lcm)
     return answer
 
 # 다른 사람의 풀이
